@@ -8,6 +8,6 @@ def my_collect(collection)
 collection
 end
 
-my_collect(n_collection) do |name|
+my_collect(collection) do |name|
   name.split(" ").first
 end 
