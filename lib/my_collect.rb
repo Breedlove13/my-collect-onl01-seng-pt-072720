@@ -7,5 +7,3 @@ def my_collect(collection)
   end
 collection
 end
-
-my_collect(collection) = {|i| i.split(" ").first}
