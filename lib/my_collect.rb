@@ -8,7 +8,3 @@ def my_collect(collection)
 n_collection
 end
 
-array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-my_collect(collection) do |name|
-  name.split(" ").first
-end 
