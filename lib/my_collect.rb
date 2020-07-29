@@ -8,10 +8,4 @@ def my_collect(collection)
 collection
 end
 
-my_collect(collection) do |lang|
-  lang.upcase
-end
- 
-my_collect(array) do |name|
-  name.split(" ").first
-end
+my_collect(list) {|i| i.split(" ").first}
