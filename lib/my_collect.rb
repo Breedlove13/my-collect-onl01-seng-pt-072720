@@ -5,7 +5,7 @@ def my_collect(collection)
   n_collection.push(yield collection[i])
   i += 1 
   end
-collection
+n_collection
 end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
