@@ -8,6 +8,7 @@ def my_collect(collection)
 collection
 end
 
+def first_names (collection)
 my_collect(collection) do |name|
   name.split(" ").first
 end
