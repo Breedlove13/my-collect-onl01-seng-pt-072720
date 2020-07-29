@@ -9,6 +9,6 @@ collection
 end
 
 def first_name (n_collection)
-my_collect(collection) do |name|
+my_collect(n_collection) do |name|
   name.split(" ").first
 end
