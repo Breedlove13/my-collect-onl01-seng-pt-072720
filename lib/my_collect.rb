@@ -8,7 +8,7 @@ def my_collect(collection)
 collection
 end
 
-def first_name
+def first_name (students)
 my_collect(n_collection) do |name|
   name.split(" ").first
    end
